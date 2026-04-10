@@ -8,7 +8,8 @@ local function dirtyWaterRecipe(recipeName, mainResult, mainProbability, seconda
             secondaryResult and { type = "item", name = secondaryResult, amount = 1, probability = secondaryProbability } or nil
         },
         main_product = mainResult,
-        subgroup = "water"
+        subgroup = "water",
+        hide_from_signal_gui = false,
     })
 end
 
