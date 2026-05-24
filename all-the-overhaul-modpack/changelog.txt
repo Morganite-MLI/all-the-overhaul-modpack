@@ -1,4 +1,19 @@
 ---------------------------------------------------------------------------------------------------
+Version: 2.2.5
+Date: 24.05.2026
+  Thanks to Morganite for all the fixes
+  Bug Fixes:
+    - Add recipe signals for all dirty water filtration recipes
+    - Fix for using Bob's Adjustible Inserters with long inserter research disabled
+    - Fix for K2 migration error
+    - Add targeted purification recipes for tantalum and niobium
+    - Fix tritium localization
+    - Only add a fluid box to the laser mill if something else hasn't got there first
+    - Fix mini machines settings
+    - Pin mini machines to `< 9.4.0`
+    - Fix se-bimsuth-glass unlock not being migrated properly
+    - Add ChemistryForYou rocket fuel recipes to the list of fuels to remove iron and airtight seals from
+---------------------------------------------------------------------------------------------------
 Version: 2.2.4
 Date: 16.03.2026
   Bug Fixes:
